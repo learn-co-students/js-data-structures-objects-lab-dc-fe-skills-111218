@@ -1,10 +1,12 @@
-lear// Write your solution in this file!
+
 const driver = {
-  
-}
+  driver: "driver",
+  name: "driver",
+};
 
 function updateDriverWithKeyAndValue (obj, key, value) {
-  return Object.assign({}, obj, {[key]: value});
+  const newDriver = Object.assign({}, obj, {[key]: value});
+  return newDriver;
 }
 
 updateDriverWithKeyAndValue(driver, name, Sam);
